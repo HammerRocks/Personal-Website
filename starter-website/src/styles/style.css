@@ -48,4 +48,74 @@ body {
     background-color: #111;
     color: #00f;
   }
+/* General styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #00f; /* Blue text */
+  background-color: #000; /* Black background */
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; /* White outline */
+}
 
+/* Header styling */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+}
+
+header h1 {
+  color: #00f;
+  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff; /* More pronounced white outline */
+}
+
+/* Main content styling */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+main p {
+  font-size: 18px;
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; /* White outline for paragraph text */
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #00f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #009;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #111;
+  color: #00f;
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; /* White outline */
+}
+/* Styling the game button */
+.game-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #00f;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+
+.game-button:hover {
+  background-color: #009;
+}
